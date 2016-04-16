@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ski Store Inventory</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Ski Store Inventory</h1>
+
+  {% for category in db["categories"]: %}
+    <h2>{{ category["name"] }}</h2>      
+    <table class="table table-hover">
+      <colgroup>
+        <col class="col-sm-2">
+        <col class="col-sm-1">
+        <col class="col-sm-1">
+        <col class="col-sm-3">
+        <col class="col-sm-1">
+        <col class="col-sm-2">
+        <col class="col-sm-3">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Item Name</th>
+          <th>Currently Loaned</th>
+          <th>ID</th>
+          <th>Images</th>
+          <th>Purchase Price</th>
+          <th>Type</th>
+          <th>Note</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in db["items"]: %}
+          {% if item["category"] == category["id"]: %}
+            <tr>
+              <td>{{ item["name"] }}</td>
+              <td>{{ item["currently_loaned"] }}</td>
+              <td>{{ item["id"] }}</td>
+              <td>
+                {% for image_name in item["images"] %}
+                  <a href="static/photo/{{ image_name }}"><img src="static/photo/{{ image_name }}" width="50"></a>
+                {% endfor %}
+              </td>
+              <td>{{ item["purchase_price"] }}</td>
+              <td>{{ item["type"] }}</td>
+              <td>{{ item["note"] }}</td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endfor %}
+</div>
+
+</body>
+</html>
