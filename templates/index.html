@@ -46,7 +46,9 @@
               <td>{{ item["id"] }}</td>
               <td>
                 {% for image_name in item["images"] %}
-                  <a href="static/photo/{{ image_name }}"><img src="static/photo/{{ image_name }}" width="50"></a>
+                  {% if image_name != "": %}
+                    <a href="{{ db.get_img_src(image_name) }}"><img src="{{ image_name|resize('50x50') }}" width="50"></a>
+                  {% endif %}
                 {% endfor %}
               </td>
               <td>{{ item["purchase_price"] }}</td>

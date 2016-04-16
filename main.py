@@ -1,7 +1,15 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, request
 import json
+import flask_resize
+import os
 
 app = Flask(__name__)
+app.config["RESIZE_URL"] = "http://localhost:8090/static/photo/"
+app.config["RESIZE_ROOT"] = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static/photo")
+app.config["RESIZE_NOOP"] = False
+
+flask_resize.Resize(app)
+
 
 
 class Database:
@@ -17,6 +25,11 @@ class Database:
 				count += 1
 
 		return count
+
+
+	def get_img_src(self, image_name):
+		return "/static/photo/" + image_name
+
 
 DB = Database("ski_store_inventory.json")
 
