@@ -22,7 +22,7 @@ class Database:
 		count = 0
 		for item in self.json["items"]:
 			if item["category"] == category_id:
-				count += 1
+				count += item["quantity"]
 
 		return count
 
@@ -38,5 +38,5 @@ def index():
     return render_template("index.html", db=DB)
 
 if __name__ == '__main__':
-	app.debug = True
+	app.debug = False
 	app.run(host="0.0.0.0", port=8090)

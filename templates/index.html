@@ -21,7 +21,8 @@
         <col class="col-sm-2">
         <col class="col-sm-1">
         <col class="col-sm-1">
-        <col class="col-sm-3">
+        <col class="col-sm-2">
+        <col class="col-sm-1">
         <col class="col-sm-1">
         <col class="col-sm-2">
         <col class="col-sm-3">
@@ -32,6 +33,7 @@
           <th>Currently Loaned</th>
           <th>ID</th>
           <th>Images</th>
+          <th>Quantity</th>
           <th>Purchase Price</th>
           <th>Type</th>
           <th>Note</th>
@@ -51,6 +53,7 @@
                   {% endif %}
                 {% endfor %}
               </td>
+              <td>{{ item["quantity"] }}</td>
               <td>{{ item["purchase_price"] }}</td>
               <td>{{ item["type"] }}</td>
               <td>{{ item["note"] }}</td>

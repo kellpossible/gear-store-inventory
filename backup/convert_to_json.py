@@ -42,8 +42,13 @@ with open(FILENAME + ".csv", "r") as csvfile:
 			if int(row[7]) >= 0:
 				item["currently_loaned"] = True
 
-			if int(row[7]) <= 1:
+			if int(row[7]) == 1:
 				item["currently_loaned"] = False
+
+			item["quantity"] = 1
+
+			if int(row[7]) > 1:
+				item["quantity"] = int(row[7])
 
 			item["type"] = row[10]
 
