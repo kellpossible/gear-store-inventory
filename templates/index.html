@@ -13,8 +13,9 @@
 <div class="container">
   <h1>Ski Store Inventory</h1>
 
-  {% for category in db["categories"]: %}
-    <h2>{{ category["name"] }}</h2>      
+  {% for category in db.json["categories"]: %}
+    <h2>{{ category["name"] }}</h2>
+    <p>Number of items: {{ db.count_items_category(category["id"]) }}</p>  
     <table class="table table-hover">
       <colgroup>
         <col class="col-sm-2">
@@ -37,7 +38,7 @@
         </tr>
       </thead>
       <tbody>
-        {% for item in db["items"]: %}
+        {% for item in db.json["items"]: %}
           {% if item["category"] == category["id"]: %}
             <tr>
               <td>{{ item["name"] }}</td>
