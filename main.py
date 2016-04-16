@@ -38,5 +38,5 @@ def index():
     return render_template("index.html", db=DB)
 
 if __name__ == '__main__':
-	app.debug = False
+	app.debug = True
 	app.run(host="0.0.0.0", port=8090)
