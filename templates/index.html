@@ -4,9 +4,11 @@
   <title>Ski Store Inventory</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="static/css/sortable-theme-bootstrap.css" />
+  <script src="static/js/sortable.min.js"></script>
 </head>
 <body>
 
@@ -16,7 +18,7 @@
   {% for category in db.json["categories"]: %}
     <h2>{{ category["name"] }}</h2>
     <p>Number of items: {{ db.count_items_category(category["id"]) }}</p>  
-    <table class="table table-hover">
+    <table class="table table-hover sortable-theme-bootstrap" data-sortable>
       <colgroup>
         <col class="col-sm-2">
         <col class="col-sm-1">
