@@ -1236,7 +1236,7 @@
         },
         {
             "id": null,
-            "currently_loaned": true,
+            "currently_loaned": false,
             "created_date": "2015-12-03 22:16",
             "type": "",
             "note": "",
@@ -1250,7 +1250,7 @@
         },
         {
             "id": null,
-            "currently_loaned": true,
+            "currently_loaned": false,
             "created_date": "2015-12-03 19:58",
             "type": "",
             "note": "",
@@ -1264,7 +1264,7 @@
         },
         {
             "id": null,
-            "currently_loaned": true,
+            "currently_loaned": false,
             "created_date": "2015-12-03 20:52",
             "type": "",
             "note": "",
@@ -1278,7 +1278,7 @@
         },
         {
             "id": null,
-            "currently_loaned": true,
+            "currently_loaned": false,
             "created_date": "2015-12-03 20:02",
             "type": "",
             "note": "",
@@ -1292,7 +1292,7 @@
         },
         {
             "id": null,
-            "currently_loaned": true,
+            "currently_loaned": false,
             "created_date": "2015-12-03 20:03",
             "type": "",
             "note": "",
@@ -1306,7 +1306,7 @@
         },
         {
             "id": null,
-            "currently_loaned": true,
+            "currently_loaned": false,
             "created_date": "2015-12-03 21:49",
             "type": "",
             "note": "",
@@ -1320,7 +1320,7 @@
         },
         {
             "id": null,
-            "currently_loaned": true,
+            "currently_loaned": false,
             "created_date": "2015-12-03 21:47",
             "type": "",
             "note": "",
