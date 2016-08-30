@@ -13,30 +13,28 @@ flask_resize.Resize(app)
 
 
 class Database:
-	def __init__(self, filename):
-		database_file = open(filename, "r")
-		self.json = json.loads(database_file.read())
-		database_file.close()
+    def __init__(self, filename):
+        database_file = open(filename, "r")
+        self.json = json.loads(database_file.read())
+        database_file.close()
 
-	def count_items_category(self, category_id):
-		count = 0
-		for item in self.json["items"]:
-			if item["category"] == category_id:
-				count += item["quantity"]
+    def count_items_category(self, category_id):
+        count = 0
+        for item in self.json["items"]:
+            if item["category"] == category_id:
+                count += item["quantity"]
 
-		return count
-
-
-	def get_img_src(self, image_name):
-		return "/static/photo/" + image_name
+        return count
 
 
-DB = Database("ski_store_inventory.json")
+    def get_img_src(self, image_name):
+        return "/static/photo/" + image_name
 
 @app.route('/')
 def index():
+    DB = Database("ski_store_inventory.json")
     return render_template("index.html", db=DB)
 
 if __name__ == '__main__':
-	app.debug = True
-	app.run(host="0.0.0.0", port=8090)
+    app.debug = True
+    app.run(host="0.0.0.0", port=8090)
