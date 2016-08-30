@@ -1,22 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Ski Store Inventory</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="static/css/sortable-theme-bootstrap.css" />
-  <script src="static/js/sortable.js"></script>
-</head>
-<body>
+{% extends "layout.html" %}
 
+{% block html_attribs %} lang="en"{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="static/css/sortable-theme-bootstrap.css" />
+{% endblock %}
+
+{% block title %}
+Ski Store Inventory
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+<script src="static/js/sortable.js"></script>
+{% endblock %}
+
+{% block content %}
 <div class="container">
   <h1>Ski Store Inventory</h1>
+  <p>
+    <a class="btn btn-success" href="/new-item">New Item</a>
+  </p>
 
   {% for category in db.json["categories"]: %}
-    <h2>{{ category["name"] }}</h2>
+    <h2 id="{{category['name'].replace(' ', '-')}}">{{ category["name"] }}</h2>
     <p>Number of items: {{ db.count_items_category(category["id"]) }}</p>  
     <table class="table table-hover sortable-theme-bootstrap" data-sortable>
       <colgroup>
@@ -39,12 +47,13 @@
           <th>Purchase Price</th>
           <th>Type</th>
           <th>Note</th>
+          <th>Actions</th>
         </tr>
       </thead>
       <tbody>
         {% for item in db.json["items"]: %}
           {% if item["category"] == category["id"]: %}
-            <tr>
+            <tr id="item-{{ item['id'] }}">
               <td>{{ item["name"] }}</td>
               <td>{{ item["currently_loaned"] }}</td>
               <td>{{ item["id"] }}</td>
@@ -59,6 +68,10 @@
               <td>{{ item["purchase_price"] }}</td>
               <td>{{ item["type"] }}</td>
               <td>{{ item["note"] }}</td>
+              <td>
+                <a href="{{'/edit-item/{0}'.format(item.id)}}" class="btn btn-primary" role="button">Edit</a>
+                <a href="{{'/delete-item/{0}'.format(item.id)}}" class="btn btn-danger" role="button">Delete</a>
+              </td>
             </tr>
           {% endif %}
         {% endfor %}
@@ -66,6 +79,4 @@
     </table>
   {% endfor %}
 </div>
-
-</body>
-</html>
+{% endblock %}
