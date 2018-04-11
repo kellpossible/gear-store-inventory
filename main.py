@@ -146,6 +146,9 @@ class Database:
 
         return choices
 
+    def get_inventory_name(self):
+        return self.json["inventory-name"]
+
     def get_category(self, category_id):
         for category in self.json["categories"]:
             if category["id"] == category_id:
@@ -164,7 +167,6 @@ class Database:
 
 
 DB = Database(os.path.join(DIRECTORY, "ski_store_inventory.json"))
-
 
 @app.route('/')
 @flask_login.login_required

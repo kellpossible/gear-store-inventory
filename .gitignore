@@ -1,2 +1,4 @@
 *.pyc
 static/photo/cache/*
+\#*
+static/photo/resized-images

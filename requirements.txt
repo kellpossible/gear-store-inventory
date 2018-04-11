@@ -1,0 +1,5 @@
+flask_resize
+flask
+flask_login
+flask_bootstrap
+flask_wtf

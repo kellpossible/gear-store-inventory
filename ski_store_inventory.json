@@ -1,1402 +1,5 @@
 {
-    "items": [
-        {
-            "id": 1,
-            "images": [
-                "20150512_183329.jpg",
-                "20150512_183340-resized-1024.jpg"
-            ],
-            "type": "Garmont size 38.5",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#1 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 17:09"
-        },
-        {
-            "id": 2,
-            "images": [
-                "20150512_183358-resized-1024.jpg",
-                "20150512_183407-resized-1024.jpg"
-            ],
-            "type": "Size 39",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#2 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 17:26"
-        },
-        {
-            "id": 3,
-            "images": [
-                "20150512_183437-resized-1024.jpg",
-                "20150512_183444-resized-1024.jpg"
-            ],
-            "type": "Garmont size 40",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#3 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 17:27"
-        },
-        {
-            "id": 4,
-            "images": [
-                "20150512_183459-resized-1024.jpg",
-                "20150512_183505-resized-1024.jpg"
-            ],
-            "type": "Garmont size 40",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#4 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 17:28"
-        },
-        {
-            "id": 5,
-            "images": [
-                "20150512_183521-resized-1024.jpg",
-                "20150512_183528-resized-1024.jpg"
-            ],
-            "type": "Garmont size 40",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#5 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 17:38"
-        },
-        {
-            "id": 6,
-            "images": [
-                "20150512_183541-resized-1024.jpg",
-                "20150512_183546-resized-1024.jpg"
-            ],
-            "type": "Garmont size 40",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#6 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 17:44"
-        },
-        {
-            "id": 7,
-            "images": [
-                "20150512_183605-resized-1024.jpg",
-                "20150512_183611-resized-1024.jpg"
-            ],
-            "type": "Garmont size 41",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#7 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 17:58"
-        },
-        {
-            "id": 8,
-            "images": [
-                "20150512_183640-resized-1024.jpg",
-                "20150512_183648-resized-1024.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#8 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 18:05"
-        },
-        {
-            "id": 9,
-            "images": [
-                "20150512_183719-resized-1024.jpg",
-                "20150512_183725-resized-1024.jpg"
-            ],
-            "type": "Scarpa size 42",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#9 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 18:06"
-        },
-        {
-            "id": 10,
-            "images": [
-                "20150512_183804-resized-1024.jpg",
-                "20150512_183814-resized-1024.jpg"
-            ],
-            "type": "Size 42.5",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#10 Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 18:30"
-        },
-        {
-            "id": 11,
-            "images": [
-                "20150512_183834-resized-1024.jpg",
-                "20150512_183841-resized-1024.jpg"
-            ],
-            "type": "Garmont size 42.5",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#11 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 18:33"
-        },
-        {
-            "id": 12,
-            "images": [
-                "20150512_183857-resized-1024.jpg",
-                "20150512_183904-resized-1024.jpg"
-            ],
-            "type": "Garmont size 43",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#12 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 18:35"
-        },
-        {
-            "id": 13,
-            "images": [
-                "20150512_183927-resized-1024.jpg",
-                "20150512_183938-resized-1024.jpg"
-            ],
-            "type": "Garmont size 43",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#13 Plastic Ski Boots",
-            "note": "Bad heel condition",
-            "created_date": "2015-06-02 18:36"
-        },
-        {
-            "id": 14,
-            "images": [
-                "20150512_184006-resized-1024.jpg",
-                "20150512_184017-resized-1024.jpg"
-            ],
-            "type": "Garmont size 44",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#14 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 18:39"
-        },
-        {
-            "id": 15,
-            "images": [
-                "20150512_184037-resized-1024.jpg",
-                "20150512_184044-resized-1024.jpg"
-            ],
-            "type": "Garmont size 44",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#15 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 18:40"
-        },
-        {
-            "id": 16,
-            "images": [
-                "20150512_184106-resized-1024.jpg",
-                "20150512_184113-resized-1024.jpg"
-            ],
-            "type": "Garmont size 45",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#16 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 18:42"
-        },
-        {
-            "id": 17,
-            "images": [
-                "20150512_184139-resized-1024.jpg"
-            ],
-            "type": "Garmont size 46",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#17 Plastic Ski Boots",
-            "note": "",
-            "created_date": "2015-06-02 18:47"
-        },
-        {
-            "id": 18,
-            "images": [
-                "150705_133035.jpg",
-                "150705_133049.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#18 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 13:30"
-        },
-        {
-            "id": 19,
-            "images": [
-                "150705_132745.jpg",
-                "150705_132856.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#19 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 13:28"
-        },
-        {
-            "id": 20,
-            "images": [
-                "150705_133126.jpg",
-                "150705_133151.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#20 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 13:31"
-        },
-        {
-            "id": 21,
-            "images": [
-                "150705_133255.jpg",
-                "150705_133306.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#21 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 13:33"
-        },
-        {
-            "id": 22,
-            "images": [
-                "150705_134007.jpg",
-                "150705_134021.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#22 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 13:40"
-        },
-        {
-            "id": 23,
-            "images": [
-                "150705_134127.jpg",
-                "150705_134140.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#23 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 13:41"
-        },
-        {
-            "id": 24,
-            "images": [
-                "150705_134225.jpg",
-                "150705_134250.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#24 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 13:42"
-        },
-        {
-            "id": 25,
-            "images": [
-                "150705_134414.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#25 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 13:44"
-        },
-        {
-            "id": 26,
-            "images": [
-                "150705_142148.jpg",
-                "150705_142207.jpg"
-            ],
-            "type": "Size 40",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#26 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 14:22"
-        },
-        {
-            "id": 27,
-            "images": [
-                "150705_142236.jpg",
-                "150705_142248.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#27 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 14:22"
-        },
-        {
-            "id": 28,
-            "images": [
-                "150705_142318.jpg",
-                "150705_142330.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#28 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 14:23"
-        },
-        {
-            "id": 29,
-            "images": [
-                "150705_142105.jpg",
-                "150705_142118.jpg"
-            ],
-            "type": "",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#29 Leather Ski Boots",
-            "note": "",
-            "created_date": "2015-07-05 14:21"
-        },
-        {
-            "id": 30,
-            "images": [
-                "150705_144150.jpg",
-                "150705_144213.jpg",
-                "150705_144249.jpg"
-            ],
-            "type": "Madshus Annum 175cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#30 Skis",
-            "note": "",
-            "created_date": "2015-07-05 14:42"
-        },
-        {
-            "id": 31,
-            "images": [
-                "150705_144450.jpg",
-                "150705_144513.jpg",
-                "150705_144528.jpg"
-            ],
-            "type": "Madshus Annum 175cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#31 Skis",
-            "note": "",
-            "created_date": "2015-07-05 14:45"
-        },
-        {
-            "id": 32,
-            "images": [
-                "150705_144659.jpg",
-                "150705_144709.jpg",
-                "150705_144744.jpg"
-            ],
-            "type": "Madshus Epoch 175cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#32 Skis",
-            "note": "",
-            "created_date": "2015-07-05 14:47"
-        },
-        {
-            "id": 33,
-            "images": [
-                "150705_144830.jpg",
-                "150705_144854.jpg",
-                "150705_144906.jpg"
-            ],
-            "type": "Madshus Epoch 185cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#33 Skis",
-            "note": "",
-            "created_date": "2015-07-05 14:48"
-        },
-        {
-            "id": 34,
-            "images": [
-                "150705_153122.jpg",
-                "150705_153132.jpg",
-                "150705_153143.jpg"
-            ],
-            "type": "Kaharu Orion 160cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#34 Skis",
-            "note": "",
-            "created_date": "2015-07-05 15:31"
-        },
-        {
-            "id": 35,
-            "images": [
-                "150705_152905.jpg",
-                "150705_152916.jpg",
-                "150705_152925.jpg"
-            ],
-            "type": "10th Mountain XCD 165cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#35 Skis",
-            "note": "",
-            "created_date": "2015-07-05 15:29"
-        },
-        {
-            "id": 36,
-            "images": [
-                "150705_152733.jpg",
-                "150705_152744.jpg",
-                "150705_152755.jpg"
-            ],
-            "type": "Madshus Epoch 175cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#36 Skis",
-            "note": "",
-            "created_date": "2015-07-05 15:27"
-        },
-        {
-            "id": 37,
-            "images": [
-                "150705_152531.jpg",
-                "150705_152549.jpg",
-                "150705_152613.jpg"
-            ],
-            "type": "10th Mountain XCD 185cm",
-            "category": 3,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#37 Skis",
-            "note": "Cable on right binding has snapped",
-            "created_date": "2015-07-05 15:25"
-        },
-        {
-            "id": 38,
-            "images": [
-                "150705_155332.jpg",
-                "150705_155351.jpg",
-                "150705_155403.jpg"
-            ],
-            "type": "Karhu Pavo 175cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#38 Skis",
-            "note": "",
-            "created_date": "2015-07-05 15:53"
-        },
-        {
-            "id": 39,
-            "images": [
-                "150705_155530.jpg",
-                "150705_155542.jpg"
-            ],
-            "type": "Atomic Outback 177cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#39 Skis",
-            "note": "",
-            "created_date": "2015-07-05 15:55"
-        },
-        {
-            "id": 40,
-            "images": [
-                "150705_155658.jpg",
-                "150705_155708.jpg"
-            ],
-            "type": "Fischer Outbound Crown 168cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#40 Skis",
-            "note": "",
-            "created_date": "2015-07-05 15:57"
-        },
-        {
-            "id": 41,
-            "images": [
-                "150705_155942.jpg",
-                "150705_155953.jpg"
-            ],
-            "type": "Fischer Outbound Crown 168cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#41 Skis",
-            "note": "",
-            "created_date": "2015-07-05 15:59"
-        },
-        {
-            "id": 42,
-            "images": [
-                "150705_160946.jpg",
-                "150705_160959.jpg"
-            ],
-            "type": "Fischer Outbound Crown 179cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#42 Skis",
-            "note": "",
-            "created_date": "2015-07-05 16:09"
-        },
-        {
-            "id": 43,
-            "images": [
-                "150705_160804.jpg",
-                "150705_160816.jpg",
-                "150705_160833.jpg"
-            ],
-            "type": "Karhu Pavo 190cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#43 Skis",
-            "note": "",
-            "created_date": "2015-07-05 16:08"
-        },
-        {
-            "id": 44,
-            "images": [
-                "150705_162737.jpg"
-            ],
-            "type": "MSR Evo",
-            "category": 4,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#44 Snow Shoes",
-            "note": "",
-            "created_date": "2015-07-05 16:27"
-        },
-        {
-            "id": 45,
-            "images": [
-                "150705_162848.jpg"
-            ],
-            "type": "MSR Evo",
-            "category": 4,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#45 Snow Shoes",
-            "note": "",
-            "created_date": "2015-07-05 16:28"
-        },
-        {
-            "id": 46,
-            "images": [
-                "150705_163016.jpg"
-            ],
-            "type": "MSR Denali",
-            "category": 4,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#46 Snow Shoes",
-            "note": "",
-            "created_date": "2015-07-05 16:30"
-        },
-        {
-            "id": 47,
-            "images": [
-                "150705_163241.jpg"
-            ],
-            "type": "MSR Denali",
-            "category": 4,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#47 Snow Shoes",
-            "note": "",
-            "created_date": "2015-07-05 16:32"
-        },
-        {
-            "id": 48,
-            "images": [
-                "150705_163142.jpg"
-            ],
-            "type": "MSR Evo",
-            "category": 4,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#48 Snow Shoes",
-            "note": "",
-            "created_date": "2015-07-05 16:31"
-        },
-        {
-            "id": 49,
-            "images": [
-                "150705_163335.jpg"
-            ],
-            "type": "MSR Evo",
-            "category": 4,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#49 Snow Shoes",
-            "note": "",
-            "created_date": "2015-07-05 16:33"
-        },
-        {
-            "id": 50,
-            "images": [
-                "150705_164043.jpg"
-            ],
-            "type": "MSR Evo",
-            "category": 4,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#50 Snow Shoes",
-            "note": "",
-            "created_date": "2015-07-05 16:40"
-        },
-        {
-            "id": 51,
-            "images": [
-                "150705_164004.jpg"
-            ],
-            "type": "MSR Evo",
-            "category": 4,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#51 Snow Shoes",
-            "note": "",
-            "created_date": "2015-07-05 16:40"
-        },
-        {
-            "id": 52,
-            "images": [
-                "150705_163909.jpg"
-            ],
-            "type": "MSR Evo",
-            "category": 4,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#52 Snow Shoes",
-            "note": "",
-            "created_date": "2015-07-05 16:39"
-        },
-        {
-            "id": 53,
-            "images": [
-                "150713_125138.jpg",
-                "150713_125215.jpg"
-            ],
-            "type": "Madshus Epoch 165cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#53 Skis",
-            "note": "",
-            "created_date": "2015-07-13 12:52"
-        },
-        {
-            "id": 54,
-            "images": [
-                "151203_190446.jpg"
-            ],
-            "type": "Fischer XCD 185cm",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#54 Skis",
-            "note": "Old, new bindings, delaminating",
-            "created_date": "2015-12-03 19:05"
-        },
-        {
-            "id": 55,
-            "images": [
-                "151203_191344.jpg"
-            ],
-            "type": "Fischer XCD 180cm Cable Bindings",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#55 Skis",
-            "note": "",
-            "created_date": "2015-12-03 19:11"
-        },
-        {
-            "id": 56,
-            "images": [
-                "151203_191838.jpg"
-            ],
-            "type": "Karhu 165cm 3pin Bindings",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#56 Skis",
-            "note": "",
-            "created_date": "2015-12-03 19:14"
-        },
-        {
-            "id": 57,
-            "images": [
-                "151203_192341.jpg"
-            ],
-            "type": "Madshus 185cm Cable Bindings",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#57 Skis",
-            "note": "",
-            "created_date": "2015-12-03 19:16"
-        },
-        {
-            "id": 58,
-            "images": [
-                "151203_192550.jpg"
-            ],
-            "type": "Fischer 180cm Cable Bindings",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#58 Skis",
-            "note": "",
-            "created_date": "2015-12-03 19:24"
-        },
-        {
-            "id": 59,
-            "images": [
-                "151203_193155.jpg"
-            ],
-            "type": "Rossignol 215cm 3pin Bindings",
-            "category": 3,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#59 Skis",
-            "note": "Crappy bindings really loose",
-            "created_date": "2015-12-03 19:29"
-        },
-        {
-            "id": 60,
-            "images": [
-                "151203_193325.jpg"
-            ],
-            "type": "Morotto 195cm 3pin Bindings",
-            "category": 3,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#60 Skis",
-            "note": "Old, double right binding, needs swapping.",
-            "created_date": "2015-12-03 19:32"
-        },
-        {
-            "id": 61,
-            "images": [
-                "151203_193451.jpg"
-            ],
-            "type": "Karhu 190cm Cable Bindings",
-            "category": 5,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#61 Skis",
-            "note": "Were not even hired out this season in 2016",
-            "created_date": "2015-12-03 19:34"
-        },
-        {
-            "id": 62,
-            "images": [
-                "151203_210916.jpg"
-            ],
-            "type": "",
-            "category": 6,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#62 Snow Shovel",
-            "note": "",
-            "created_date": "2015-12-03 21:09"
-        },
-        {
-            "id": 63,
-            "images": [
-                "151203_211047.jpg"
-            ],
-            "type": "Black Diamond Snow Shovel",
-            "category": 6,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#63 Snow Shovel",
-            "note": "",
-            "created_date": "2015-12-03 21:10"
-        },
-        {
-            "id": 64,
-            "images": [
-                "151203_211259.jpg"
-            ],
-            "type": "",
-            "category": 6,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#64 Snow Shovel",
-            "note": "",
-            "created_date": "2015-12-03 21:13"
-        },
-        {
-            "id": 65,
-            "images": [
-                "151203_211421.jpg"
-            ],
-            "type": "",
-            "category": 6,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#65 Snow Shovel",
-            "note": "",
-            "created_date": "2015-12-03 21:14"
-        },
-        {
-            "id": 66,
-            "images": [
-                "151203_211526.jpg"
-            ],
-            "type": "",
-            "category": 6,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#66 Snow Shovel",
-            "note": "",
-            "created_date": "2015-12-03 21:15"
-        },
-        {
-            "id": 67,
-            "images": [
-                "151203_211659.jpg"
-            ],
-            "type": "Aldi",
-            "category": 7,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#67 Ski Gloves",
-            "note": "",
-            "created_date": "2015-12-03 21:17"
-        },
-        {
-            "id": 68,
-            "images": [
-                "151203_211846.jpg"
-            ],
-            "type": "Aldi",
-            "category": 7,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#68 Ski Gloves",
-            "note": "",
-            "created_date": "2015-12-03 21:18"
-        },
-        {
-            "id": 69,
-            "images": [
-                "151203_211946.jpg"
-            ],
-            "type": "Aldi",
-            "category": 7,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#69 Ski Gloves",
-            "note": "",
-            "created_date": "2015-12-03 21:19"
-        },
-        {
-            "id": 70,
-            "images": [
-                "151203_212149.jpg"
-            ],
-            "type": "Aldi",
-            "category": 7,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#70 Ski Gloves",
-            "note": "",
-            "created_date": "2015-12-03 21:20"
-        },
-        {
-            "id": 71,
-            "images": [
-                "151203_212235.jpg"
-            ],
-            "type": "Aldi",
-            "category": 7,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#71 Ski Gloves",
-            "note": "",
-            "created_date": "2015-12-03 21:22"
-        },
-        {
-            "id": 72,
-            "images": [
-                "151203_212349.jpg"
-            ],
-            "type": "Aldi",
-            "category": 7,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#72 Ski Gloves",
-            "note": "",
-            "created_date": "2015-12-03 21:22"
-        },
-        {
-            "id": 73,
-            "images": [
-                "151203_212436.jpg"
-            ],
-            "type": "Aldi",
-            "category": 7,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#73 Ski Gloves",
-            "note": "",
-            "created_date": "2015-12-03 21:24"
-        },
-        {
-            "id": 74,
-            "images": [
-                "151203_212513.jpg"
-            ],
-            "type": "Aldi",
-            "category": 7,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#74 Ski Gloves",
-            "note": "",
-            "created_date": "2015-12-03 21:24"
-        },
-        {
-            "id": 75,
-            "images": [
-                "151203_213018.jpg"
-            ],
-            "type": "",
-            "category": 8,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#75 Ski Goggles",
-            "note": "",
-            "created_date": "2015-12-03 21:29"
-        },
-        {
-            "id": 76,
-            "images": [
-                "151203_213509.jpg"
-            ],
-            "type": "Aldi",
-            "category": 8,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#76 Ski Goggles",
-            "note": "",
-            "created_date": "2015-12-03 21:34"
-        },
-        {
-            "id": 78,
-            "images": [
-                "151203_213853.jpg"
-            ],
-            "type": "Aldi",
-            "category": 8,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#77 Ski Goggles",
-            "note": "",
-            "created_date": "2015-12-03 21:37"
-        },
-        {
-            "id": 78,
-            "images": [
-                "151203_213702.jpg"
-            ],
-            "type": "Aldi",
-            "category": 8,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#78 Ski Goggles",
-            "note": "",
-            "created_date": "2015-12-03 21:35"
-        },
-        {
-            "id": 79,
-            "images": [
-                "151203_213216.jpg"
-            ],
-            "type": "Aldi",
-            "category": 8,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#79 Ski Goggles",
-            "note": "",
-            "created_date": "2015-12-03 21:31"
-        },
-        {
-            "id": 80,
-            "images": [
-                "151203_213339.jpg"
-            ],
-            "type": "Aldi",
-            "category": 8,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#80 Ski Goggles",
-            "note": "",
-            "created_date": "2015-12-03 21:33"
-        },
-        {
-            "id": 81,
-            "images": [
-                "151203_212813.jpg"
-            ],
-            "type": "Aldi",
-            "category": 8,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#81 Ski Goggles",
-            "note": "",
-            "created_date": "2015-12-03 21:27"
-        },
-        {
-            "id": 82,
-            "images": [
-                "151203_220334.jpg"
-            ],
-            "type": "Leather",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#82 Ski Boots",
-            "note": "",
-            "created_date": "2015-12-03 22:02"
-        },
-        {
-            "id": 83,
-            "images": [
-                "160624_180330.jpg"
-            ],
-            "type": "Leather ski boots",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#83 Ski Boots",
-            "note": "",
-            "created_date": "2016-06-24 18:03"
-        },
-        {
-            "id": 84,
-            "images": [
-                "160624_180951.jpg"
-            ],
-            "type": "Leather ",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#84 Ski Boots",
-            "note": "",
-            "created_date": "2016-06-24 18:10"
-        },
-        {
-            "id": 85,
-            "images": [
-                "160628_181935.jpg"
-            ],
-            "type": "Size 39 leather ski boots",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#85 Ski Boots",
-            "note": "",
-            "created_date": "2016-06-28 18:20"
-        },
-        {
-            "id": 87,
-            "images": [
-                "160628_203545.jpg"
-            ],
-            "type": "Leather ski boots size 43",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#87 Ski Boots",
-            "note": "",
-            "created_date": "2016-06-28 20:36"
-        },
-        {
-            "id": 88,
-            "images": [
-                "160628_203248.jpg"
-            ],
-            "type": "Size 42 leather ski boots",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#88 Ski Boots",
-            "note": "",
-            "created_date": "2016-06-28 20:33"
-        },
-        {
-            "id": 89,
-            "images": [
-                "160628_204043.jpg"
-            ],
-            "type": "Size 42 leather ski boots",
-            "category": 1,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": true,
-            "name": "#89 Ski Boots",
-            "note": "",
-            "created_date": "2016-06-28 20:40"
-        },
-        {
-            "id": 90,
-            "images": [
-                ""
-            ],
-            "type": "New ones",
-            "category": 2,
-            "purchase_price": "0.0",
-            "quantity": 1,
-            "currently_loaned": false,
-            "name": "#90 Skis",
-            "note": "",
-            "created_date": "2016-07-26 20:09"
-        },
-        {
-            "id": null,
-            "images": [
-                "151203_221605.jpg"
-            ],
-            "type": "",
-            "category": 9,
-            "purchase_price": "0.0",
-            "quantity": 20,
-            "currently_loaned": true,
-            "name": "Assorted Ski Poles",
-            "note": "",
-            "created_date": "2015-12-03 22:16"
-        },
-        {
-            "id": null,
-            "images": [
-                "151203_195847.jpg"
-            ],
-            "type": "",
-            "category": 9,
-            "purchase_price": "0.0",
-            "quantity": 12,
-            "currently_loaned": true,
-            "name": "Black Diamond Expedition Poles",
-            "note": "",
-            "created_date": "2015-12-03 19:58"
-        },
-        {
-            "id": null,
-            "images": [
-                "151203_205235.jpg"
-            ],
-            "type": "",
-            "category": 9,
-            "purchase_price": "0.0",
-            "quantity": 6,
-            "currently_loaned": true,
-            "name": "Black Diamond Traverse Old Poles 95-145cm",
-            "note": "",
-            "created_date": "2015-12-03 20:52"
-        },
-        {
-            "id": null,
-            "images": [
-                "151203_200454.jpg"
-            ],
-            "type": "",
-            "category": 9,
-            "purchase_price": "0.0",
-            "quantity": 4,
-            "currently_loaned": true,
-            "name": "Black Diamond Traverse Poles 105-155cm",
-            "note": "",
-            "created_date": "2015-12-03 20:02"
-        },
-        {
-            "id": null,
-            "images": [
-                "151203_200422.jpg"
-            ],
-            "type": "",
-            "category": 9,
-            "purchase_price": "0.0",
-            "quantity": 4,
-            "currently_loaned": true,
-            "name": "Black Diamond Traverse Poles 145-195cm",
-            "note": "",
-            "created_date": "2015-12-03 20:03"
-        },
-        {
-            "id": null,
-            "images": [
-                ""
-            ],
-            "type": "",
-            "category": 10,
-            "purchase_price": "0.0",
-            "quantity": 3,
-            "currently_loaned": true,
-            "name": "Morotto Ski Bags",
-            "note": "",
-            "created_date": "2015-12-03 21:49"
-        },
-        {
-            "id": null,
-            "images": [
-                ""
-            ],
-            "type": "",
-            "category": 10,
-            "purchase_price": "0.0",
-            "quantity": 6,
-            "currently_loaned": true,
-            "name": "North Face Ski Bags",
-            "note": "",
-            "created_date": "2015-12-03 21:47"
-        }
-    ],
+    "inventory-name": "Ski Store Inventory",
     "categories": [
         {
             "id": 1,
@@ -1437,6 +40,1488 @@
         {
             "id": 10,
             "name": "Other"
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "images": [
+                "20150512_183329.jpg",
+                "20150512_183340-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 17:09",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 38.5",
+            "quantity": 1,
+            "purchase_price": 0.0,
+            "category": 1,
+            "name": "#1 Plastic Ski Boots"
+        },
+        {
+            "id": 2,
+            "images": [
+                "20150512_183358-resized-1024.jpg",
+                "20150512_183407-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 17:26",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Size 39",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#2 Plastic Ski Boots"
+        },
+        {
+            "id": 3,
+            "images": [
+                "20150512_183437-resized-1024.jpg",
+                "20150512_183444-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 17:27",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 40",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#3 Plastic Ski Boots"
+        },
+        {
+            "id": 4,
+            "images": [
+                "20150512_183459-resized-1024.jpg",
+                "20150512_183505-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 17:28",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 40",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#4 Plastic Ski Boots"
+        },
+        {
+            "id": 5,
+            "images": [
+                "20150512_183521-resized-1024.jpg",
+                "20150512_183528-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 17:38",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 40",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#5 Plastic Ski Boots"
+        },
+        {
+            "id": 6,
+            "images": [
+                "20150512_183541-resized-1024.jpg",
+                "20150512_183546-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 17:44",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 40",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#6 Plastic Ski Boots"
+        },
+        {
+            "id": 7,
+            "images": [
+                "20150512_183605-resized-1024.jpg",
+                "20150512_183611-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 17:58",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 41",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#7 Plastic Ski Boots"
+        },
+        {
+            "id": 8,
+            "images": [
+                "20150512_183640-resized-1024.jpg",
+                "20150512_183648-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:05",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#8 Plastic Ski Boots"
+        },
+        {
+            "id": 9,
+            "images": [
+                "20150512_183719-resized-1024.jpg",
+                "20150512_183725-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:06",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Scarpa size 42",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#9 Plastic Ski Boots"
+        },
+        {
+            "id": 10,
+            "images": [
+                "20150512_183804-resized-1024.jpg",
+                "20150512_183814-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:30",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Size 42.5",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#10 Ski Boots"
+        },
+        {
+            "id": 11,
+            "images": [
+                "20150512_183834-resized-1024.jpg",
+                "20150512_183841-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:33",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 42.5",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#11 Plastic Ski Boots"
+        },
+        {
+            "id": 12,
+            "images": [
+                "20150512_183857-resized-1024.jpg",
+                "20150512_183904-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:35",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 43",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#12 Plastic Ski Boots"
+        },
+        {
+            "id": 13,
+            "images": [
+                "20150512_183927-resized-1024.jpg",
+                "20150512_183938-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:36",
+            "currently_loaned": true,
+            "note": "Bad heel condition",
+            "type": "Garmont size 43",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#13 Plastic Ski Boots"
+        },
+        {
+            "id": 14,
+            "images": [
+                "20150512_184006-resized-1024.jpg",
+                "20150512_184017-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:39",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 44",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#14 Plastic Ski Boots"
+        },
+        {
+            "id": 15,
+            "images": [
+                "20150512_184037-resized-1024.jpg",
+                "20150512_184044-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:40",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 44",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#15 Plastic Ski Boots"
+        },
+        {
+            "id": 16,
+            "images": [
+                "20150512_184106-resized-1024.jpg",
+                "20150512_184113-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:42",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 45",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#16 Plastic Ski Boots"
+        },
+        {
+            "id": 17,
+            "images": [
+                "20150512_184139-resized-1024.jpg"
+            ],
+            "created_date": "2015-06-02 18:47",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Garmont size 46",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#17 Plastic Ski Boots"
+        },
+        {
+            "id": 18,
+            "images": [
+                "150705_133035.jpg",
+                "150705_133049.jpg"
+            ],
+            "created_date": "2015-07-05 13:30",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#18 Leather Ski Boots"
+        },
+        {
+            "id": 19,
+            "images": [
+                "150705_132745.jpg",
+                "150705_132856.jpg"
+            ],
+            "created_date": "2015-07-05 13:28",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#19 Leather Ski Boots"
+        },
+        {
+            "id": 20,
+            "images": [
+                "150705_133126.jpg",
+                "150705_133151.jpg"
+            ],
+            "created_date": "2015-07-05 13:31",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#20 Leather Ski Boots"
+        },
+        {
+            "id": 21,
+            "images": [
+                "150705_133255.jpg",
+                "150705_133306.jpg"
+            ],
+            "created_date": "2015-07-05 13:33",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#21 Leather Ski Boots"
+        },
+        {
+            "id": 22,
+            "images": [
+                "150705_134007.jpg",
+                "150705_134021.jpg"
+            ],
+            "created_date": "2015-07-05 13:40",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#22 Leather Ski Boots"
+        },
+        {
+            "id": 23,
+            "images": [
+                "150705_134127.jpg",
+                "150705_134140.jpg"
+            ],
+            "created_date": "2015-07-05 13:41",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#23 Leather Ski Boots"
+        },
+        {
+            "id": 24,
+            "images": [
+                "150705_134225.jpg",
+                "150705_134250.jpg"
+            ],
+            "created_date": "2015-07-05 13:42",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#24 Leather Ski Boots"
+        },
+        {
+            "id": 25,
+            "images": [
+                "150705_134414.jpg"
+            ],
+            "created_date": "2015-07-05 13:44",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#25 Leather Ski Boots"
+        },
+        {
+            "id": 26,
+            "images": [
+                "150705_142148.jpg",
+                "150705_142207.jpg"
+            ],
+            "created_date": "2015-07-05 14:22",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Size 40",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#26 Leather Ski Boots"
+        },
+        {
+            "id": 27,
+            "images": [
+                "150705_142236.jpg",
+                "150705_142248.jpg"
+            ],
+            "created_date": "2015-07-05 14:22",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#27 Leather Ski Boots"
+        },
+        {
+            "id": 28,
+            "images": [
+                "150705_142318.jpg",
+                "150705_142330.jpg"
+            ],
+            "created_date": "2015-07-05 14:23",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#28 Leather Ski Boots"
+        },
+        {
+            "id": 29,
+            "images": [
+                "150705_142105.jpg",
+                "150705_142118.jpg"
+            ],
+            "created_date": "2015-07-05 14:21",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#29 Leather Ski Boots"
+        },
+        {
+            "id": 30,
+            "images": [
+                "150705_144150.jpg",
+                "150705_144213.jpg",
+                "150705_144249.jpg"
+            ],
+            "created_date": "2015-07-05 14:42",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Madshus Annum 175cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#30 Skis"
+        },
+        {
+            "id": 31,
+            "images": [
+                "150705_144450.jpg",
+                "150705_144513.jpg",
+                "150705_144528.jpg"
+            ],
+            "created_date": "2015-07-05 14:45",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Madshus Annum 175cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#31 Skis"
+        },
+        {
+            "id": 32,
+            "images": [
+                "150705_144659.jpg",
+                "150705_144709.jpg",
+                "150705_144744.jpg"
+            ],
+            "created_date": "2015-07-05 14:47",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Madshus Epoch 175cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#32 Skis"
+        },
+        {
+            "id": 33,
+            "images": [
+                "150705_144830.jpg",
+                "150705_144854.jpg",
+                "150705_144906.jpg"
+            ],
+            "created_date": "2015-07-05 14:48",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Madshus Epoch 185cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#33 Skis"
+        },
+        {
+            "id": 34,
+            "images": [
+                "150705_153122.jpg",
+                "150705_153132.jpg",
+                "150705_153143.jpg"
+            ],
+            "created_date": "2015-07-05 15:31",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Kaharu Orion 160cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#34 Skis"
+        },
+        {
+            "id": 35,
+            "images": [
+                "150705_152905.jpg",
+                "150705_152916.jpg",
+                "150705_152925.jpg"
+            ],
+            "created_date": "2015-07-05 15:29",
+            "currently_loaned": false,
+            "note": "",
+            "type": "10th Mountain XCD 165cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#35 Skis"
+        },
+        {
+            "id": 36,
+            "images": [
+                "150705_152733.jpg",
+                "150705_152744.jpg",
+                "150705_152755.jpg"
+            ],
+            "created_date": "2015-07-05 15:27",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Madshus Epoch 175cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#36 Skis"
+        },
+        {
+            "id": 37,
+            "images": [
+                "150705_152531.jpg",
+                "150705_152549.jpg",
+                "150705_152613.jpg"
+            ],
+            "created_date": "2015-07-05 15:25",
+            "currently_loaned": false,
+            "note": "Cable on right binding has snapped",
+            "type": "10th Mountain XCD 185cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 3,
+            "name": "#37 Skis"
+        },
+        {
+            "id": 38,
+            "images": [
+                "150705_155332.jpg",
+                "150705_155351.jpg",
+                "150705_155403.jpg"
+            ],
+            "created_date": "2015-07-05 15:53",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Karhu Pavo 175cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#38 Skis"
+        },
+        {
+            "id": 39,
+            "images": [
+                "150705_155530.jpg",
+                "150705_155542.jpg"
+            ],
+            "created_date": "2015-07-05 15:55",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Atomic Outback 177cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#39 Skis"
+        },
+        {
+            "id": 40,
+            "images": [
+                "150705_155658.jpg",
+                "150705_155708.jpg"
+            ],
+            "created_date": "2015-07-05 15:57",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Fischer Outbound Crown 168cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#40 Skis"
+        },
+        {
+            "id": 41,
+            "images": [
+                "150705_155942.jpg",
+                "150705_155953.jpg"
+            ],
+            "created_date": "2015-07-05 15:59",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Fischer Outbound Crown 168cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#41 Skis"
+        },
+        {
+            "id": 42,
+            "images": [
+                "150705_160946.jpg",
+                "150705_160959.jpg"
+            ],
+            "created_date": "2015-07-05 16:09",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Fischer Outbound Crown 179cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#42 Skis"
+        },
+        {
+            "id": 43,
+            "images": [
+                "150705_160804.jpg",
+                "150705_160816.jpg",
+                "150705_160833.jpg"
+            ],
+            "created_date": "2015-07-05 16:08",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Karhu Pavo 190cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#43 Skis"
+        },
+        {
+            "id": 44,
+            "images": [
+                "150705_162737.jpg"
+            ],
+            "created_date": "2015-07-05 16:27",
+            "currently_loaned": true,
+            "note": "",
+            "type": "MSR Evo",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 4,
+            "name": "#44 Snow Shoes"
+        },
+        {
+            "id": 45,
+            "images": [
+                "150705_162848.jpg"
+            ],
+            "created_date": "2015-07-05 16:28",
+            "currently_loaned": true,
+            "note": "",
+            "type": "MSR Evo",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 4,
+            "name": "#45 Snow Shoes"
+        },
+        {
+            "id": 46,
+            "images": [
+                "150705_163016.jpg"
+            ],
+            "created_date": "2015-07-05 16:30",
+            "currently_loaned": true,
+            "note": "",
+            "type": "MSR Denali",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 4,
+            "name": "#46 Snow Shoes"
+        },
+        {
+            "id": 47,
+            "images": [
+                "150705_163241.jpg"
+            ],
+            "created_date": "2015-07-05 16:32",
+            "currently_loaned": true,
+            "note": "",
+            "type": "MSR Denali",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 4,
+            "name": "#47 Snow Shoes"
+        },
+        {
+            "id": 48,
+            "images": [
+                "150705_163142.jpg"
+            ],
+            "created_date": "2015-07-05 16:31",
+            "currently_loaned": true,
+            "note": "",
+            "type": "MSR Evo",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 4,
+            "name": "#48 Snow Shoes"
+        },
+        {
+            "id": 49,
+            "images": [
+                "150705_163335.jpg"
+            ],
+            "created_date": "2015-07-05 16:33",
+            "currently_loaned": true,
+            "note": "",
+            "type": "MSR Evo",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 4,
+            "name": "#49 Snow Shoes"
+        },
+        {
+            "id": 50,
+            "images": [
+                "150705_164043.jpg"
+            ],
+            "created_date": "2015-07-05 16:40",
+            "currently_loaned": true,
+            "note": "",
+            "type": "MSR Evo",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 4,
+            "name": "#50 Snow Shoes"
+        },
+        {
+            "id": 51,
+            "images": [
+                "150705_164004.jpg"
+            ],
+            "created_date": "2015-07-05 16:40",
+            "currently_loaned": true,
+            "note": "",
+            "type": "MSR Evo",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 4,
+            "name": "#51 Snow Shoes"
+        },
+        {
+            "id": 52,
+            "images": [
+                "150705_163909.jpg"
+            ],
+            "created_date": "2015-07-05 16:39",
+            "currently_loaned": true,
+            "note": "",
+            "type": "MSR Evo",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 4,
+            "name": "#52 Snow Shoes"
+        },
+        {
+            "id": 53,
+            "images": [
+                "150713_125138.jpg",
+                "150713_125215.jpg"
+            ],
+            "created_date": "2015-07-13 12:52",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Madshus Epoch 165cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#53 Skis"
+        },
+        {
+            "id": 54,
+            "images": [
+                "151203_190446.jpg"
+            ],
+            "created_date": "2015-12-03 19:05",
+            "currently_loaned": false,
+            "note": "Old, new bindings, delaminating",
+            "type": "Fischer XCD 185cm",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#54 Skis"
+        },
+        {
+            "id": 55,
+            "images": [
+                "151203_191344.jpg"
+            ],
+            "created_date": "2015-12-03 19:11",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Fischer XCD 180cm Cable Bindings",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#55 Skis"
+        },
+        {
+            "id": 56,
+            "images": [
+                "151203_191838.jpg"
+            ],
+            "created_date": "2015-12-03 19:14",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Karhu 165cm 3pin Bindings",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#56 Skis"
+        },
+        {
+            "id": 57,
+            "images": [
+                "151203_192341.jpg"
+            ],
+            "created_date": "2015-12-03 19:16",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Madshus 185cm Cable Bindings",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#57 Skis"
+        },
+        {
+            "id": 58,
+            "images": [
+                "151203_192550.jpg"
+            ],
+            "created_date": "2015-12-03 19:24",
+            "currently_loaned": false,
+            "note": "",
+            "type": "Fischer 180cm Cable Bindings",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#58 Skis"
+        },
+        {
+            "id": 59,
+            "images": [
+                "151203_193155.jpg"
+            ],
+            "created_date": "2015-12-03 19:29",
+            "currently_loaned": false,
+            "note": "Crappy bindings really loose",
+            "type": "Rossignol 215cm 3pin Bindings",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 3,
+            "name": "#59 Skis"
+        },
+        {
+            "id": 60,
+            "images": [
+                "151203_193325.jpg"
+            ],
+            "created_date": "2015-12-03 19:32",
+            "currently_loaned": false,
+            "note": "Old, double right binding, needs swapping.",
+            "type": "Morotto 195cm 3pin Bindings",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 3,
+            "name": "#60 Skis"
+        },
+        {
+            "id": 61,
+            "images": [
+                "151203_193451.jpg"
+            ],
+            "created_date": "2015-12-03 19:34",
+            "currently_loaned": true,
+            "note": "Were not even hired out this season in 2016",
+            "type": "Karhu 190cm Cable Bindings",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 5,
+            "name": "#61 Skis"
+        },
+        {
+            "id": 62,
+            "images": [
+                "151203_210916.jpg"
+            ],
+            "created_date": "2015-12-03 21:09",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 6,
+            "name": "#62 Snow Shovel"
+        },
+        {
+            "id": 63,
+            "images": [
+                "151203_211047.jpg"
+            ],
+            "created_date": "2015-12-03 21:10",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Black Diamond Snow Shovel",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 6,
+            "name": "#63 Snow Shovel"
+        },
+        {
+            "id": 64,
+            "images": [
+                "151203_211259.jpg"
+            ],
+            "created_date": "2015-12-03 21:13",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 6,
+            "name": "#64 Snow Shovel"
+        },
+        {
+            "id": 65,
+            "images": [
+                "151203_211421.jpg"
+            ],
+            "created_date": "2015-12-03 21:14",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 6,
+            "name": "#65 Snow Shovel"
+        },
+        {
+            "id": 66,
+            "images": [
+                "151203_211526.jpg"
+            ],
+            "created_date": "2015-12-03 21:15",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 6,
+            "name": "#66 Snow Shovel"
+        },
+        {
+            "id": 67,
+            "images": [
+                "151203_211659.jpg"
+            ],
+            "created_date": "2015-12-03 21:17",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 7,
+            "name": "#67 Ski Gloves"
+        },
+        {
+            "id": 68,
+            "images": [
+                "151203_211846.jpg"
+            ],
+            "created_date": "2015-12-03 21:18",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 7,
+            "name": "#68 Ski Gloves"
+        },
+        {
+            "id": 69,
+            "images": [
+                "151203_211946.jpg"
+            ],
+            "created_date": "2015-12-03 21:19",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 7,
+            "name": "#69 Ski Gloves"
+        },
+        {
+            "id": 70,
+            "images": [
+                "151203_212149.jpg"
+            ],
+            "created_date": "2015-12-03 21:20",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 7,
+            "name": "#70 Ski Gloves"
+        },
+        {
+            "id": 71,
+            "images": [
+                "151203_212235.jpg"
+            ],
+            "created_date": "2015-12-03 21:22",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 7,
+            "name": "#71 Ski Gloves"
+        },
+        {
+            "id": 72,
+            "images": [
+                "151203_212349.jpg"
+            ],
+            "created_date": "2015-12-03 21:22",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 7,
+            "name": "#72 Ski Gloves"
+        },
+        {
+            "id": 73,
+            "images": [
+                "151203_212436.jpg"
+            ],
+            "created_date": "2015-12-03 21:24",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 7,
+            "name": "#73 Ski Gloves"
+        },
+        {
+            "id": 74,
+            "images": [
+                "151203_212513.jpg"
+            ],
+            "created_date": "2015-12-03 21:24",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 7,
+            "name": "#74 Ski Gloves"
+        },
+        {
+            "id": 75,
+            "images": [
+                "151203_213018.jpg"
+            ],
+            "created_date": "2015-12-03 21:29",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 8,
+            "name": "#75 Ski Goggles"
+        },
+        {
+            "id": 76,
+            "images": [
+                "151203_213509.jpg"
+            ],
+            "created_date": "2015-12-03 21:34",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 8,
+            "name": "#76 Ski Goggles"
+        },
+        {
+            "id": 78,
+            "images": [
+                "151203_213853.jpg"
+            ],
+            "created_date": "2015-12-03 21:37",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 8,
+            "name": "#77 Ski Goggles"
+        },
+        {
+            "id": 78,
+            "images": [
+                "151203_213702.jpg"
+            ],
+            "created_date": "2015-12-03 21:35",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 8,
+            "name": "#78 Ski Goggles"
+        },
+        {
+            "id": 79,
+            "images": [
+                "151203_213216.jpg"
+            ],
+            "created_date": "2015-12-03 21:31",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 8,
+            "name": "#79 Ski Goggles"
+        },
+        {
+            "id": 80,
+            "images": [
+                "151203_213339.jpg"
+            ],
+            "created_date": "2015-12-03 21:33",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 8,
+            "name": "#80 Ski Goggles"
+        },
+        {
+            "id": 81,
+            "images": [
+                "151203_212813.jpg"
+            ],
+            "created_date": "2015-12-03 21:27",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Aldi",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 8,
+            "name": "#81 Ski Goggles"
+        },
+        {
+            "id": 82,
+            "images": [
+                "151203_220334.jpg"
+            ],
+            "created_date": "2015-12-03 22:02",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Leather",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#82 Ski Boots"
+        },
+        {
+            "id": 83,
+            "images": [
+                "160624_180330.jpg"
+            ],
+            "created_date": "2016-06-24 18:03",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Leather ski boots",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#83 Ski Boots"
+        },
+        {
+            "id": 84,
+            "images": [
+                "160624_180951.jpg"
+            ],
+            "created_date": "2016-06-24 18:10",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Leather ",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#84 Ski Boots"
+        },
+        {
+            "id": 85,
+            "images": [
+                "160628_181935.jpg"
+            ],
+            "created_date": "2016-06-28 18:20",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Size 39 leather ski boots",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#85 Ski Boots"
+        },
+        {
+            "id": 87,
+            "images": [
+                "160628_203545.jpg"
+            ],
+            "created_date": "2016-06-28 20:36",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Leather ski boots size 43",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#87 Ski Boots"
+        },
+        {
+            "id": 88,
+            "images": [
+                "160628_203248.jpg"
+            ],
+            "created_date": "2016-06-28 20:33",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Size 42 leather ski boots",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#88 Ski Boots"
+        },
+        {
+            "id": 89,
+            "images": [
+                "160628_204043.jpg"
+            ],
+            "created_date": "2016-06-28 20:40",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Size 42 leather ski boots",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 1,
+            "name": "#89 Ski Boots"
+        },
+        {
+            "id": 90,
+            "images": [
+                ""
+            ],
+            "created_date": "2016-07-26 20:09",
+            "currently_loaned": false,
+            "note": "",
+            "type": "New ones",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 2,
+            "name": "#90 Skis"
+        },
+        {
+            "id": null,
+            "images": [
+                "151203_221605.jpg"
+            ],
+            "created_date": "2015-12-03 22:16",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 20,
+            "purchase_price": "0.0",
+            "category": 9,
+            "name": "Assorted Ski Poles"
+        },
+        {
+            "id": null,
+            "images": [
+                "151203_195847.jpg"
+            ],
+            "created_date": "2015-12-03 19:58",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 12,
+            "purchase_price": "0.0",
+            "category": 9,
+            "name": "Black Diamond Expedition Poles"
+        },
+        {
+            "id": null,
+            "images": [
+                "151203_205235.jpg"
+            ],
+            "created_date": "2015-12-03 20:52",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 8,
+            "purchase_price": "0.0",
+            "category": 9,
+            "name": "Black Diamond Traverse Old Poles 95-145cm"
+        },
+        {
+            "id": null,
+            "images": [
+                ""
+            ],
+            "created_date": "2017-06-07 17:17",
+            "currently_loaned": true,
+            "note": "",
+            "type": "Orange!",
+            "quantity": 2,
+            "purchase_price": "0.0",
+            "category": 9,
+            "name": "Black Diamond Traverse New Poles 95-145cm"
+        },
+        {
+            "id": null,
+            "images": [
+                "151203_200454.jpg"
+            ],
+            "created_date": "2015-12-03 20:02",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 4,
+            "purchase_price": "0.0",
+            "category": 9,
+            "name": "Black Diamond Traverse Poles 105-155cm"
+        },
+        {
+            "id": null,
+            "images": [
+                "151203_200422.jpg"
+            ],
+            "created_date": "2015-12-03 20:03",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 4,
+            "purchase_price": "0.0",
+            "category": 9,
+            "name": "Black Diamond Traverse Poles 145-195cm"
+        },
+        {
+            "id": null,
+            "images": [
+                ""
+            ],
+            "created_date": "2015-12-03 21:49",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 10,
+            "name": "Morotto Ski Bags"
+        },
+        {
+            "id": null,
+            "images": [
+                ""
+            ],
+            "created_date": "2015-12-03 21:47",
+            "currently_loaned": true,
+            "note": "",
+            "type": "",
+            "quantity": 1,
+            "purchase_price": "0.0",
+            "category": 10,
+            "name": "North Face Ski Bags"
+        },
+        {
+            "currently_loaned": false,
+            "id": 91,
+            "note": "",
+            "type": "Madshus Epoch 175cm",
+            "quantity": 1,
+            "purchase_price": 719.0,
+            "category": 2,
+            "name": "#91 Skis"
+        },
+        {
+            "currently_loaned": false,
+            "id": 92,
+            "note": "",
+            "type": "Madshus Epoch 195cm",
+            "quantity": 1,
+            "purchase_price": 719.0,
+            "category": 2,
+            "name": "#92 Skis"
+        },
+        {
+            "currently_loaned": false,
+            "id": 93,
+            "note": "",
+            "type": "Scott Excursion size 24.5",
+            "quantity": 1,
+            "purchase_price": 480.0,
+            "category": 1,
+            "name": "#93 Ski Boots"
+        },
+        {
+            "currently_loaned": false,
+            "id": 94,
+            "note": "",
+            "type": "Scott Excursion size 30",
+            "quantity": 1,
+            "purchase_price": 480.0,
+            "category": 1,
+            "name": "#94 Ski Boots"
+        },
+        {
+            "currently_loaned": false,
+            "id": 95,
+            "note": "",
+            "type": "Scott Excursion size 25.5",
+            "quantity": 1,
+            "purchase_price": 480.0,
+            "category": 1,
+            "name": "#95 Ski Boots"
+        },
+        {
+            "currently_loaned": false,
+            "id": 96,
+            "note": "",
+            "type": "Blick Diamond Deploy 3",
+            "quantity": 1,
+            "purchase_price": 88.0,
+            "category": 6,
+            "name": "#96 Snow Shovel"
+        },
+        {
+            "id": 97,
+            "currently_loaned": false,
+            "note": "grey, heel can be locked",
+            "type": "free",
+            "purchase_price": 0.0,
+            "quantity": 1,
+            "category": 4,
+            "name": "#97 Snowshoes"
         }
     ]
 }
