@@ -5,9 +5,13 @@ import os
 import flask_login
 from flask import Flask
 from flask_bootstrap import Bootstrap
-from flask_wtf import Form
+from flask_wtf import FlaskForm
+from flask_wtf.file import FileField, FileRequired, FileAllowed
+from flask_uploads import UploadSet
+import flask_uploads
 from wtforms import StringField, BooleanField, FloatField, IntegerField, SelectField, SubmitField
 from wtforms.validators import DataRequired
+from werkzeug.datastructures import CombinedMultiDict, FileStorage
 import time
 from shutil import copyfile
 
@@ -16,23 +20,40 @@ from flask_wtf.file import FileField
 
 
 app = Flask(__name__)
+
+DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+PHOTOS_DIR = "static/photo"
+app.config["SECRET_KEY"] = "SECRETKEY123"
+app.config["UPLOADED_PHOTOS_DEST"] = os.path.join(DIRECTORY, PHOTOS_DIR)
+app.config["RESIZE_URL"] = PHOTOS_DIR
+app.config["RESIZE_ROOT"] = os.path.join(DIRECTORY, PHOTOS_DIR)
+app.config["RESIZE_NOOP"] = False
+
 Bootstrap(app)
 login_manager = flask_login.LoginManager()
 login_manager.init_app(app)
 
-DIRECTORY = os.path.dirname(os.path.realpath(__file__))
-
-app.secret_key = "SECRETKEY123"
-app.config["RESIZE_URL"] = "static/photo/"
-app.config["RESIZE_ROOT"] = os.path.join(DIRECTORY, "static/photo")
-app.config["RESIZE_NOOP"] = False
+PHOTOS = UploadSet('photos', flask_uploads.IMAGES)
+flask_uploads.configure_uploads(app, PHOTOS)
 
 USERS = {"ski@mumc.org.au": {'pw': "secret_test_password123!"}}
 
 flask_resize.Resize(app)
 
-class EditItemForm(Form):
+class EditItemForm(FlaskForm):
     name = StringField('Name', validators=[DataRequired()])
+    type = StringField('Type')
+    note = StringField('Note')
+    purchase_price = FloatField('Purchase Price')
+    quantity = IntegerField('Quantity')
+    currently_loaned = BooleanField('Currently Loaned')
+    category = SelectField('Category', coerce=int)
+    submit = SubmitField()
+
+class NewItemForm(FlaskForm):
+    name = StringField('Name', validators=[DataRequired()])
+    image_1 = FileField('Image 1', validators=[FileAllowed(PHOTOS, u'Image only!')])
+    image_2 = FileField('Image 2', validators=[FileAllowed(PHOTOS, u'Image only!')])
     type = StringField('Type')
     note = StringField('Note')
     purchase_price = FloatField('Purchase Price')
@@ -108,6 +129,7 @@ class Database:
         item = {}
         item["id"] = self.max_id() + 1
         item["name"] = name
+        item["images"] = []
         item["category"] = ""
         item["purchase_price"] = 0.0
         item["type"] = ""
@@ -179,14 +201,26 @@ def index():
 def new_item():
     DB.read()
 
-    form = EditItemForm()
+    form = NewItemForm()
     form.category.choices = DB.get_category_choices()
 
     if request.method == 'POST':
         print("post")
         if form.validate_on_submit():
             print("validated")
+
             item = DB.new_item(form.name.data)
+
+            if form.image_1.data is not None:
+                filename = PHOTOS.save(form.image_1.data)
+                item["images"].append(filename)
+                print("uploaded image 1:", filename)
+
+            if form.image_2.data is not None:
+                filename = PHOTOS.save(form.image_2.data)
+                item["images"].append(filename)
+                print("uploaded image 2:", filename)
+
             item["category"] = int(form.category.data)
             item["purchase_price"] = form.purchase_price.data
             item["type"] = form.type.data
@@ -200,12 +234,13 @@ def new_item():
             return redirect(url_for("index") + "#item-{0}".format(item["id"]))
 
         return render_template("new_item.html", form=form, new_item_id=DB.max_id() + 1)
-
-    form = EditItemForm(quantity=1,
-                        purchase_price=0.0,
-                        category=1)
-    form.category.choices = DB.get_category_choices()
-    return render_template("new_item.html", form=form, new_item_id=DB.max_id()+1)
+    
+    if request.method == 'GET':
+        form = NewItemForm(quantity=1,
+                            purchase_price=0.0,
+                            category=1)
+        form.category.choices = DB.get_category_choices()
+        return render_template("new_item.html", form=form, new_item_id=DB.max_id()+1)
 
 @app.route('/edit-item/<int:id>', methods=['GET', 'POST'])
 @flask_login.login_required
@@ -239,7 +274,7 @@ def edit_item(id):
 
     )
     form.category.choices = DB.get_category_choices()
-    return render_template("edit_item.html", item=item, form=form)
+    return render_template("edit_item.html", item=item, form=form, db=DB)
 
 
 @app.route('/delete-item/<int:id>', methods=['GET', 'POST'])

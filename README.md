@@ -10,13 +10,12 @@ several inventories, with a flexible schema.
 
  - [ ] download inventory json button
  - [ ] download inventory csv button
- - [ ] toml config file
  - [ ] multiple inventories
+ - [ ] delete confirmation
+ - [x] upload images
 
 ### Update 2
-
- - [ ] upload images (with resize)
-
+ - [ ] resize image on upload
 
 ## Dependencies
 

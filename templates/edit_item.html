@@ -7,9 +7,15 @@
 <div class="container">
     <h1>Edit {{ item["name"] }} #{{ item["id"] }}</h1>
     <p>
+        {% for image_name in item["images"] %}
+            {% if image_name != "": %}
+            <a href="{{ db.get_img_src(image_name) }}"><img src="{{ db.get_img_src(image_name) }}" width="200"></a>
+            {% endif %}
+        {% endfor %}
+    </p>
+    <p>
         {{wtf.quick_form(form)}}
     </p>
-
 </div>
 
 {% endblock %}
