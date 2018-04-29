@@ -13,6 +13,7 @@ several inventories, with a flexible schema.
  - [ ] multiple inventories
  - [ ] delete confirmation
  - [x] upload images
+ - [ ] view backups
 
 ### Update 2
  - [ ] resize image on upload
