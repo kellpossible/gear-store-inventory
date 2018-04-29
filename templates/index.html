@@ -20,7 +20,9 @@
 <div class="container">
   <h1>{{db.get_inventory_name()}}</h1>
   <p>
-    <a class="btn btn-success" href="/new-item">New Item</a>
+    <a class="btn btn-success" href="new-item">New Item</a>
+    <a class="btn btn-primary" href="download?format=json">Download as JSON</a>
+    <a class="btn btn-primary" href="download?format=csv">Download as CSV</a>
   </p>
 
   {% for category in db.json["categories"]: %}
@@ -69,8 +71,8 @@
               <td>{{ item["type"] }}</td>
               <td>{{ item["note"] }}</td>
               <td>
-                <a href="{{'/edit-item/{0}'.format(item.id)}}" class="btn btn-primary" role="button">Edit</a>
-                <a href="{{'/delete-item/{0}'.format(item.id)}}" class="btn btn-danger" role="button">Delete</a>
+                <a href="{{'edit-item/{0}'.format(item.id)}}" class="btn btn-primary" role="button">Edit</a>
+                <a href="{{'delete-item/{0}'.format(item.id)}}" class="btn btn-danger" role="button">Delete</a>
               </td>
             </tr>
           {% endif %}

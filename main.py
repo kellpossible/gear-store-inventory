@@ -3,7 +3,7 @@ import json
 import flask_resize
 import os
 import flask_login
-from flask import Flask
+from flask import Flask, abort, Response
 from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileRequired, FileAllowed
@@ -14,6 +14,8 @@ from wtforms.validators import DataRequired
 from werkzeug.datastructures import CombinedMultiDict, FileStorage
 import time
 from shutil import copyfile
+import io
+import csv
 
 from werkzeug.utils import secure_filename
 from flask_wtf.file import FileField
@@ -178,6 +180,45 @@ class Database:
 
         return None
 
+    def get_json_string(self):
+        return json.dumps(self.json, indent=4)
+
+    def get_csv_string(self):
+        output = io.StringIO()
+        writer = csv.writer(output, quoting=csv.QUOTE_NONNUMERIC)
+
+        writer.writerow([
+            "id",
+            "name", 
+            "images", 
+            "category",
+            "purchase price", 
+            "type", 
+            "note", 
+            "currently loaned", 
+            "quantity", 
+            "created date", 
+            ])
+
+        for item in DB.json["items"]:
+            writer.writerow([
+                item["id"],
+                item["name"],
+                str(item["images"]) if "images" in item else [],
+                self.get_category(item["category"])["name"],
+                item["purchase_price"],
+                item["type"],
+                item["note"],
+                item["currently_loaned"],
+                item["quantity"],
+                item["created_date"] if "created_date" in item else None
+            ])
+        
+        return output.getvalue()
+
+    def get_filename(self):
+        return self.filename
+
     def get_img_src(self, image_name):
         return "/static/photo/" + image_name
 
@@ -248,6 +289,9 @@ def edit_item(id):
     DB.read()
     item = DB.get_item(id)
 
+    if item is None:
+        abort(404)
+
     form = EditItemForm()
     form.category.choices = DB.get_category_choices()
 
@@ -313,6 +357,36 @@ def login():
         return redirect(next or url_for('index'))
 
     return 'Bad login'
+
+@app.route('/download', methods=['GET'])
+def download():
+    download_format = request.args.get("format")
+
+    db_filepath = DB.get_filename()
+    db_basename = os.path.basename(db_filepath)
+    download_filename = os.path.splitext(db_basename)[0]
+
+    if download_format == "json":
+        download_filename += ".json"
+
+        return Response(
+            DB.get_json_string(),
+            mimetype="text/json",
+            headers={
+                "Content-disposition": 
+                "attachment; filename={}".format(download_filename)}
+        )
+    elif download_format == "csv":
+        download_filename += ".csv"
+        return Response(
+            DB.get_csv_string(),
+            mimetype="text/csv",
+            headers={
+                "Content-disposition": 
+                "attachment; filename={}".format(download_filename)}
+        )
+    else:
+        abort(404)
 
 if __name__ == '__main__':
     app.debug = True

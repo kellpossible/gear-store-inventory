@@ -8,8 +8,8 @@ several inventories, with a flexible schema.
 
 ### Update 1
 
- - [ ] download inventory json button
- - [ ] download inventory csv button
+ - [x] download inventory json button
+ - [x] download inventory csv button
  - [ ] multiple inventories
  - [ ] delete confirmation
  - [x] upload images
