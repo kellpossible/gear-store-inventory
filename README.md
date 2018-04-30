@@ -9,7 +9,8 @@ several inventories, with a flexible schema.
 ### Update 1
 
  - [x] download inventory json button
- - [x] download inventory csv button
+ - [x] download invntory csv button
+ - [ ] download inventory zip button (including images)
  - [ ] multiple inventories
  - [ ] delete confirmation
  - [x] upload images
@@ -20,11 +21,10 @@ several inventories, with a flexible schema.
 
 ## Dependencies
 
-
 ### Python
 
- + [toml](https://pypi.python.org/pypi/toml) for config file loading
+ - See [requirements.txt](requirements.txt). These can be installed with `pip install -r requirements.txt` command.
 
 ### Javascript
 
- + [sortable](https://github.com/HubSpot/sortable) for table sorting
+ - [sortable](https://github.com/HubSpot/sortable) for table sorting
