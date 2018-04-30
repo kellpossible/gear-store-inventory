@@ -18,7 +18,11 @@ several inventories, with a flexible schema.
  - [ ] view backups
 
 ### Update 2
+
  - [ ] resize image on upload
+ - [ ] create setup.py and have this be installed and run as a local command
+ - [ ] command line gui
+ - [ ] release to github
 
 ## Dependencies
 
