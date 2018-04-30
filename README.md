@@ -12,6 +12,7 @@ several inventories, with a flexible schema.
  - [x] download invntory csv button
  - [ ] download inventory zip button (including images)
  - [ ] multiple inventories
+ - [ ] delete and upload image options in edit item page
  - [ ] delete confirmation
  - [x] upload images
  - [ ] view backups
