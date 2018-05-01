@@ -11,6 +11,7 @@ several inventories, with a flexible schema.
  - [x] download inventory json button
  - [x] download invntory csv button
  - [ ] download inventory zip button (including images)
+ - [ ] serve from photo directory specified in json
  - [ ] multiple inventories
  - [ ] delete and upload image options in edit item page
  - [x] upload images
