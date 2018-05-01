@@ -1,0 +1,32 @@
+{
+    "inventory-name": "Mountaineering Store Inventory",
+    "categories": [
+        {
+            "id": 1,
+            "name": "Crampons"
+        },
+        {
+            "id": 2,
+            "name": "Ice Axes"
+        },
+        {
+            "id": 3,
+            "name": "Ropes"
+        },
+        {
+            "id": 4,
+            "name": "Guide Books"
+        },
+        {
+            "id": 9,
+            "name": "Missing"
+        },
+        {
+            "id": 10,
+            "name": "Other"
+        }
+    ],
+    "items": [
+
+    ]
+}
