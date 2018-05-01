@@ -31,7 +31,7 @@ from flask_uploads import UploadSet
 import flask_uploads
 from wtforms import StringField, BooleanField, FloatField, IntegerField, SelectField, SubmitField
 from wtforms.fields.html5 import DateField
-from wtforms.validators import DataRequired
+from wtforms.validators import DataRequired, Optional
 from werkzeug.datastructures import CombinedMultiDict, FileStorage
 import time
 from shutil import copyfile
@@ -91,7 +91,7 @@ class NewItemForm(FlaskForm):
     type = StringField('Type')
     note = StringField('Note')
     purchase_price = FloatField('Purchase Price')
-    purchase_date = DateField('Purchase Date', format=DATE_FORMAT)
+    purchase_date = DateField('Purchase Date', format=DATE_FORMAT, validators=[Optional()])
     quantity = IntegerField('Quantity')
     # currently_loaned = BooleanField('Currently Loaned')
     category = SelectField('Category', coerce=int)
@@ -340,8 +340,12 @@ def new_item():
             item["quantity"] = form.quantity.data
 
             purchase_date = form.purchase_date.data
-            purchase_date = datetime.datetime.combine(purchase_date, datetime.time(0, 0))
-            item["purchase_date"] = purchase_date.strftime(DATETIME_FORMAT)
+            if purchase_date is not None:    
+                purchase_date = datetime.datetime.combine(purchase_date, datetime.time(0, 0))
+                item["purchase_date"] = purchase_date.strftime(DATETIME_FORMAT)
+            else:
+                item["purchase_date"] = None
+             
             DB.commit()
 
             print("committed")
