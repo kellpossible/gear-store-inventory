@@ -355,9 +355,13 @@ def new_item():
         return render_template("new_item.html", form=form, new_item_id=DB.max_id() + 1)
     
     if request.method == 'GET':
+        category_id = 1
+        if "category" in request.args:
+            category_id = int(request.args["category"])
+        
         form = NewItemForm(quantity=1,
                             purchase_price=0.0,
-                            category=1)
+                            category=category_id)
         form.category.choices = DB.get_category_choices()
         return render_template("new_item.html", form=form, new_item_id=DB.max_id()+1)
 
@@ -468,7 +472,7 @@ if __name__ == '__main__':
     ARGUMENTS = arguments
 
     if not ARGUMENTS['new']:
-        DB = Database(os.path.join(DIRECTORY, "ski_store_inventory.json"))
+        DB = Database(os.path.join(DIRECTORY, ARGUMENTS["<file>"]))
     print(arguments)
     app.debug = True
     app.run(host=arguments['-a'], port=int(arguments['-p']))

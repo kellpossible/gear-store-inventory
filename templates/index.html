@@ -27,7 +27,8 @@
 
   {% for category in db.json["categories"]: %}
     <h2 id="{{category['name'].replace(' ', '-')}}">{{ category["name"] }}</h2>
-    <p>Number of items: {{ db.count_items_category(category["id"]) }}</p>  
+    <p>Number of items: {{ db.count_items_category(category["id"]) }}</p>
+    <p><a class="btn btn-success" href="new-item?category={{category['id']}}">New {{ category["name"] }}</a></p>
     <table class="table table-hover sortable-theme-bootstrap" data-sortable>
       <colgroup>
         <col class="col-sm-2">
