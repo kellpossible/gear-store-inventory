@@ -1,3 +1,23 @@
+"""Gear Store Inventory
+
+Usage:
+  main.py [-p <port>] [-a <address>] new
+  main.py [-p <port>] [-a <address>] <file>
+  main.py (-h | --help)
+
+Arguments:
+  <file>        a json file containing an existing inventory
+  <address>     an ip address of an interface on your computer
+  <port>        an available port number on your computer
+
+Options:
+  -p <port>     port to host webserver on [default: 8090]
+  -a <address>  address to host webserver on [default: 0.0.0.0]
+
+Commands:
+  new           command to create a new inventory
+"""
+
 from flask import Flask, render_template, redirect, request, url_for, abort
 import json
 import flask_resize
@@ -10,18 +30,27 @@ from flask_wtf.file import FileField, FileRequired, FileAllowed
 from flask_uploads import UploadSet
 import flask_uploads
 from wtforms import StringField, BooleanField, FloatField, IntegerField, SelectField, SubmitField
+from wtforms.fields.html5 import DateField
 from wtforms.validators import DataRequired
 from werkzeug.datastructures import CombinedMultiDict, FileStorage
 import time
 from shutil import copyfile
 import io
 import csv
+import datetime
 
 from werkzeug.utils import secure_filename
 from flask_wtf.file import FileField
 
+from docopt import docopt
+
 
 app = Flask(__name__)
+
+DATETIME_FORMAT = "%Y-%m-%d %H:%M"
+DATE_FORMAT = "%Y-%m-%d"
+
+DB = None
 
 DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 PHOTOS_DIR = "static/photo"
@@ -38,7 +67,10 @@ login_manager.init_app(app)
 PHOTOS = UploadSet('photos', flask_uploads.IMAGES)
 flask_uploads.configure_uploads(app, PHOTOS)
 
-USERS = {"ski@mumc.org.au": {'pw': "secret_test_password123!"}}
+USERS = {"ski@mumc.org.au": {'pw': "jfd$&Dlkj22f!"}}
+
+# command line arguments
+ARGUMENTS = None
 
 flask_resize.Resize(app)
 
@@ -48,7 +80,7 @@ class EditItemForm(FlaskForm):
     note = StringField('Note')
     purchase_price = FloatField('Purchase Price')
     quantity = IntegerField('Quantity')
-    currently_loaned = BooleanField('Currently Loaned')
+    # currently_loaned = BooleanField('Currently Loaned')
     category = SelectField('Category', coerce=int)
     submit = SubmitField()
 
@@ -59,8 +91,9 @@ class NewItemForm(FlaskForm):
     type = StringField('Type')
     note = StringField('Note')
     purchase_price = FloatField('Purchase Price')
+    purchase_date = DateField('Purchase Date', format=DATE_FORMAT)
     quantity = IntegerField('Quantity')
-    currently_loaned = BooleanField('Currently Loaned')
+    # currently_loaned = BooleanField('Currently Loaned')
     category = SelectField('Category', coerce=int)
     submit = SubmitField()
 
@@ -139,6 +172,11 @@ class Database:
         item["currently_loaned"] = False
         item["quantity"] = 1
 
+        created_date = datetime.datetime.now()
+        item["created_date"] = created_date.strftime(DATETIME_FORMAT)
+
+        item["purchase_date"] = None
+
         self.json["items"].append(item)
         return item
 
@@ -162,6 +200,32 @@ class Database:
                 return item
 
         return None
+
+    def get_item_purchase_date(self, id):
+        item = self.get_item(id)
+        if "purchase_date" in item and item["purchase_date"] is not None:
+            return datetime.datetime.strptime(item["purchase_date"], DATETIME_FORMAT)
+        else:
+            return None
+
+    def get_item_age_years(self, id):
+        now = datetime.datetime.now()
+        purchase_date = self.get_item_purchase_date(id)
+
+        if purchase_date is None:
+            return None
+
+        time_diff_seconds = (now - purchase_date).total_seconds()
+
+        return time_diff_seconds/(60.0 * 60.0 * 24.0 * 365.25)
+
+    def get_item_age_years_string(self, id):
+        age = self.get_item_age_years(id)
+        if age is None:
+            return ""
+        else:
+            return "{:.2f}".format(age)
+    
 
     def get_category_choices(self):
         choices = []
@@ -197,7 +261,8 @@ class Database:
             "note", 
             "currently loaned", 
             "quantity", 
-            "created date", 
+            "created date",
+            "purchase date"
             ])
 
         for item in DB.json["items"]:
@@ -211,7 +276,8 @@ class Database:
                 item["note"],
                 item["currently_loaned"],
                 item["quantity"],
-                item["created_date"] if "created_date" in item else None
+                item["created_date"] if "created_date" in item else None,
+                item["purchase_date"] if "purchase_date" in item else None
             ])
         
         return output.getvalue()
@@ -228,14 +294,18 @@ class Database:
 
         copyfile(self.filename, backup_file_path)
 
-
-DB = Database(os.path.join(DIRECTORY, "ski_store_inventory.json"))
-
 @app.route('/')
 @flask_login.login_required
 def index():
-    DB.read()
-    return render_template("index.html", db=DB)
+    if (ARGUMENTS['new']):
+        return redirect('/new-inventory')
+    else:
+        DB.read()
+        return render_template("index.html", db=DB)
+
+@app.route('/new-inventory')
+def new_inventory():
+    abort(404)
 
 @app.route('/new-item', methods=['GET', 'POST'])
 @flask_login.login_required
@@ -266,8 +336,12 @@ def new_item():
             item["purchase_price"] = form.purchase_price.data
             item["type"] = form.type.data
             item["note"] = form.note.data
-            item["currently_loaned"] = form.currently_loaned.data
+            # item["currently_loaned"] = form.currently_loaned.data
             item["quantity"] = form.quantity.data
+
+            purchase_date = form.purchase_date.data
+            purchase_date = datetime.datetime.combine(purchase_date, datetime.time(0, 0))
+            item["purchase_date"] = purchase_date.strftime(DATETIME_FORMAT)
             DB.commit()
 
             print("committed")
@@ -302,7 +376,7 @@ def edit_item(id):
             item["purchase_price"] = form.purchase_price.data
             item["type"] = form.type.data
             item["note"] = form.note.data
-            item["currently_loaned"] = form.currently_loaned.data
+            # item["currently_loaned"] = form.currently_loaned.data
             DB.commit()
 
         return redirect(url_for("index") + "#item-{0}".format(item["id"]))
@@ -313,13 +387,11 @@ def edit_item(id):
         purchase_price = float(item["purchase_price"]),
         quantity = item["quantity"],
         type = item["type"],
-        note = item["note"],
-        currently_loaned = item["currently_loaned"]
-
+        note = item["note"]
+        #currently_loaned = item["currently_loaned"]
     )
     form.category.choices = DB.get_category_choices()
     return render_template("edit_item.html", item=item, form=form, db=DB)
-
 
 @app.route('/delete-item/<int:id>', methods=['GET', 'POST'])
 @flask_login.login_required
@@ -340,7 +412,6 @@ def delete_item(id):
             DB.commit()
 
     return redirect(url_for("index"))
-
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -389,5 +460,13 @@ def download():
         abort(404)
 
 if __name__ == '__main__':
+    arguments = docopt(__doc__, version='Gear Store Inventory 0.1')
+    ARGUMENTS = arguments
+
+    if not ARGUMENTS['new']:
+        DB = Database(os.path.join(DIRECTORY, "ski_store_inventory.json"))
+    print(arguments)
     app.debug = True
-    app.run(host="0.0.0.0", port=8090)
+    app.run(host=arguments['-a'], port=int(arguments['-p']))
+
+    

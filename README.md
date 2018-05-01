@@ -13,7 +13,6 @@ several inventories, with a flexible schema.
  - [ ] download inventory zip button (including images)
  - [ ] multiple inventories
  - [ ] delete and upload image options in edit item page
- - [ ] delete confirmation
  - [x] upload images
  - [ ] view backups
 
@@ -21,8 +20,9 @@ several inventories, with a flexible schema.
 
  - [ ] resize image on upload
  - [ ] create setup.py and have this be installed and run as a local command
- - [ ] command line options
+ - [x] command line options
  - [ ] release to github
+ - [ ] new inventory page/dialog
 
 ## Dependencies
 

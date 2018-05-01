@@ -4,3 +4,4 @@ flask_login
 flask_bootstrap
 flask_wtf
 flask-uploads
+docopt

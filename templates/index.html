@@ -42,7 +42,7 @@
       <thead>
         <tr>
           <th>Item Name</th>
-          <th>Currently Loaned</th>
+          <th>Item Age</th>
           <th>ID</th>
           <th>Images</th>
           <th>Quantity</th>
@@ -57,7 +57,7 @@
           {% if item["category"] == category["id"]: %}
             <tr id="item-{{ item['id'] }}">
               <td>{{ item["name"] }}</td>
-              <td>{{ item["currently_loaned"] }}</td>
+              <td>{{ db.get_item_age_years_string(item["id"]) }}</td>
               <td>{{ item["id"] }}</td>
               <td>
                 {% for image_name in item["images"] %}
