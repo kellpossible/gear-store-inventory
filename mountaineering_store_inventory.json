@@ -1,5 +1,6 @@
 {
     "inventory-name": "Mountaineering Store Inventory",
+    "photos-directory": "static/photo_ski_store",
     "categories": [
         {
             "id": 1,

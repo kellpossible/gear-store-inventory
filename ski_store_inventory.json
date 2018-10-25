@@ -1,5 +1,6 @@
 {
     "inventory-name": "Ski Store Inventory",
+    "photos-directory": "static/photo_ski_store",
     "categories": [
         {
             "id": 1,
