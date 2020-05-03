@@ -9,9 +9,16 @@ Features:
 - Easy to set up and host yourself, or use locally.
 - Single human-readable file format.
 - CSV file export.
+- Columns can be sorted (using [sortable](https://github.com/HubSpot/sortable)).
 - User defined categories.
 
 ## Screenshots
+
+![Index Page Screenshot](./screenshots/index.png)
+
+![New Item Page Screenshot](./screenshots/new_item.png)
+
+![Edit Item Page Screenshot](./screenshots/edit_item.png)
 
 ## Planned Upgrades
 
@@ -64,7 +71,3 @@ Options:
 Commands:
   new           command to create a new inventory
 ```
-
-### Javascript
-
-- [sortable](https://github.com/HubSpot/sortable) for table sorting
