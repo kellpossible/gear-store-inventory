@@ -54,7 +54,8 @@ DB = None
 DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 PHOTOS = None
 
-USERS = {"ski@mumc.org.au": {'pw': "jfd$&Dlkj22f!"}}
+# TODO: properly hash the password before this ever used in production!
+USERS = {"test@test.org": {'pw': "jfd$&Dlkj22f!"}}
 
 # command line arguments
 ARGUMENTS = None
