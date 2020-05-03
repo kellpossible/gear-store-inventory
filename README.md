@@ -2,6 +2,8 @@
 
 A [flask](https://flask.palletsprojects.com/) web application to manage an inventory of physical items, with data stored in a json file. associated image/binary files are stored separately.
 
+**Warning: this repository contains some large files, still in the process of moving them to LFS or some other solution.**
+
 This software was developed as a proof-of-concept to be used to manage [MUMC's](https://www.mumc.org.au/) ski gear inventory, and was used to do so for 1 year. It is currently in the process of being adapted to be more generic and capable of being used to manage any other similar kind of inventory.
 
 Features:
